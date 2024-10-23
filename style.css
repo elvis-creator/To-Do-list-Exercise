@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(14, 14, 48);
+    
+    
+}
+
+.main {
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    display: block;
+    border: 2px solid grey;
+    padding: 40px;
+    position: absolute;
+    top:90px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main h1 {
+    margin-top: -30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lucida Sans';
+   
+}
+.main form {
+    background-color: rgb(184, 180, 180);
+    margin-top: 30px;
+    margin-left: -30px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.main form input {
+    flex: 1;
+    background:transparent;
+    outline: none;
+    border: none;
+    color: rgba(37,37,37);
+    font-size:20px
+}
+.main form button {
+    padding: 4px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background-color:rgb(37, 37, 37);
+    color: aliceblue;
+    border: none;
+}
+.main form button:hover {
+    background-color:rgb(40, 40, 104);
+    transform: scale(1.1);
+}
+.main Ol {
+    margin-top: 20px;
+
+}
+.main Ol .list{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    margin: 10px;
+    margin-left: -1px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    
+
+}
+.main Ol .list:hover {
+    transform: scale(.9);
+}
